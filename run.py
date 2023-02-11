@@ -6,6 +6,7 @@
 This is Hang-Man, this game expects an input from the user and checks the array 
 holding the answers to see if the user has guessed a letter in the word or not.
 """
+import random
 
 def main_menu():
     """
@@ -24,10 +25,22 @@ def main_menu():
 
 def start_game():
     """
-    This function starts the game,     
+    This function starts the game, its going to randomly select a word from the array.    
     """
-    choice_words = ['octipuss', 'banana', 'frog']
-def option():
+    word_list = ['octipuss', 'banana', 'frog']
+    word = random.choice(word_list)
+    len_word = len(word)
+    print("The length of the word is ", len_word)
+    find_word = " - " * len_word
+    print(find_word)
+
+    #guess = print(input("Please select a letter or a guess word! \n"))
+    #x = guess.isalpha()
+    #print(x)
+
+def check_answer():
+
+#def user_option():
     """
     This function tells the user how to play the game,
     """
@@ -35,3 +48,5 @@ def quit_game():
     """
     This function quits the game.
     """
+
+main_menu()
