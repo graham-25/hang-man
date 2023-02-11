@@ -27,23 +27,39 @@ def start_game():
     """
     This function starts the game, its going to randomly select a word from the array.    
     """
-    word_list = ['octipuss', 'banana', 'frog']
+    word_list = ["octipuss", "banana", "frog"]
     word = random.choice(word_list)
+    print(word)
     len_word = len(word)
     print("The length of the word is ", len_word)
     find_word = " - " * len_word
     print(find_word)
+    choice = print(input("Please select a letter or a guess word! \n"))
+    for i in range(choice.index(choice[-1]) +1):
+        print(choice[i])
 
-    #guess = print(input("Please select a letter or a guess word! \n"))
-    #x = guess.isalpha()
-    #print(x)
+    #txt = choice.index(word)
+    #print(txt)
+    #find_letter = choice.index(word, 0)
+    #print(find_letter)
+    #guess = choice.isalpha()
+    #print(guess)
+    #result = word.index(str(choice))
+    #print(result)
 
 def check_answer():
+    """
+    This function checks the user answer to see if their guess is in the chosen letter. 
+    """
+ 
 
-#def user_option():
+
+def read_instructions():
     """
     This function tells the user how to play the game,
     """
+
+
 def quit_game():
     """
     This function quits the game.
