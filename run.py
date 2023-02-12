@@ -28,19 +28,30 @@ def start_game():
     This function starts the game, its going to randomly select a word from the array.    
     """
     lst = []
+    w_lst = []
     word_list = ["octipuss", "banana", "frog"]
     word = random.choice(word_list)
     print(word)
+    for letter in word:
+        w_lst.append(letter)
+    print(w_lst)
     len_word = len(word)
     print("The length of the word is ", len_word)
     find_word = " - " * len_word
     print(find_word)
-    x = input("Please select a letter or a guess word! \n")
-    
-    for letter in x:
-        lst.append(letter)
+    guess = 0
+    for guess in range(10):
+        x = input("Please select a letter or a guess word! \n")
+        for letter in x:
+            lst.append(letter)
  
-    print(lst)
+        print(lst)
+        if x in w_lst:
+            print('good')
+            guess + 1
+        else:
+            print('sorry try again')
+            guess + 1
 
     #for i in range(choice.index(choice[-1]) +1):
     #print(choice[i])
