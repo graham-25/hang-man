@@ -13,3 +13,8 @@ The system will ask the user for a letter, it checks the answer to see if the an
 
 ![image](https://user-images.githubusercontent.com/106487436/218989641-436c291d-bc98-40da-9dda-8970533fb7d3.png)
 
+As you can see I choase e and because there are 2 elements of this character in the word so the system has stored 2 elements in its list of correct words.  
+
+![image](https://user-images.githubusercontent.com/106487436/218992229-84665b41-42ee-4033-9582-5f818ee9705c.png)
+
+
