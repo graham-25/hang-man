@@ -1,6 +1,6 @@
 <h1>Hang Man</h1>
 
-The aim of the game is to correctly guess the word before the man meets the gallows.
+The aim of the game is to correctly guess the word before the man meets the gallows. I have put it on Heroku and you can test the game.
 <a href = "https://graham-25-hang-man.herokuapp.com/">Here is a live version of my game</a>  
 
 ![image](https://user-images.githubusercontent.com/106487436/219006930-a0a46139-c93e-4cb9-9871-7ced5a02a316.png)
@@ -24,4 +24,5 @@ As you can see I choase e and because there are 2 elements of this character in 
 
 ![image](https://user-images.githubusercontent.com/106487436/218992229-84665b41-42ee-4033-9582-5f818ee9705c.png)
 
+pep8ci shows many errors but non that effect the running of the game, 
 
