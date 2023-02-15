@@ -9,6 +9,7 @@ First the user is asked to choose one of the following options, only option 1 wo
 
 ![image](https://user-images.githubusercontent.com/106487436/218988731-1a7a1f5a-3fcc-4f52-bebf-c5cf03b33b4c.png)
 
+The system will ask the user for a letter, it checks the answer to see if the answer is in the list of letters and returns good or please try again message.  
 
 ![image](https://user-images.githubusercontent.com/106487436/218989641-436c291d-bc98-40da-9dda-8970533fb7d3.png)
 
