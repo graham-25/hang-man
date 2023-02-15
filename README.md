@@ -1,5 +1,9 @@
 Hang Man
 
+The aim of the game is to correctly guess the word before the man meets the gallows, 
+<a href = "https://graham-25-hang-man.herokuapp.com/">Here is a live version of my game</a>  
+
+
 This game was a bit hard to understand but I got the jist of it, I had to use a viriaty of for loops and if statements just to be able to siver through the lists to find out if a certin element had a duplicate.  I have got a program that runs a game, it allows the user to guess 12 wrong guesses before ending the game.
 
 
