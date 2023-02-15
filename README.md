@@ -1,6 +1,6 @@
 <h1>Hang Man</h1>
 
-The aim of the game is to correctly guess the word before the man meets the gallows,/n 
+The aim of the game is to correctly guess the word before the man meets the gallows.
 <a href = "https://graham-25-hang-man.herokuapp.com/">Here is a live version of my game</a>  
 
 
