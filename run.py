@@ -30,7 +30,7 @@ def start_game():
     rit_lst = []
     wd_lst = []
     wrg_lst = []
-    word_list = ["octipuss", "banana", "frog"]
+    word_list = ["october", "banana", "frog", "computer", "cat", "diamond", "necklace", "mobile phone"]
     word = random.choice(word_list)
     print(word)
     for letter in word:
